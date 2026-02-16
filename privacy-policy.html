@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purevue - プライバシーポリシー / Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #fafafa;
+            padding: 0 16px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 0 80px;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 12px;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        .date {
+            font-size: 0.85rem;
+            color: #999;
+            margin-bottom: 24px;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 32px;
+        }
+        .lang-switch button {
+            padding: 6px 16px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            background: #fff;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .lang-switch button.active {
+            background: #333;
+            color: #fff;
+            border-color: #333;
+        }
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+        .back-link {
+            display: inline-block;
+            margin-top: 32px;
+            font-size: 0.85rem;
+            color: #999;
+            text-decoration: none;
+        }
+        .back-link:hover { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <button id="btn-ja" class="active" onclick="switchLang('ja')">日本語</button>
+            <button id="btn-en" onclick="switchLang('en')">English</button>
+        </div>
+
+        <!-- Japanese -->
+        <div id="content-ja" class="lang-section active">
+            <h1>プライバシーポリシー</h1>
+            <p class="date">最終更新日: 2026年2月16日</p>
+
+            <p>Purevue（以下「本アプリ」）は、お客様のプライバシーを尊重し、個人情報の保護に努めます。本プライバシーポリシーでは、本アプリにおけるデータの取り扱いについて説明します。</p>
+
+            <h2>1. 収集するデータ</h2>
+            <p>本アプリは以下のデータをお客様の端末上で扱います。</p>
+            <ul>
+                <li>写真データ: お客様がアプリ内で選択した写真へのアクセス（Apple Photos Frameworkを使用）</li>
+                <li>メモデータ: お客様が写真に添付したメモのテキスト</li>
+                <li>リストデータ: お客様が作成した写真リストの名前と構成</li>
+            </ul>
+
+            <h2>2. 利用目的</h2>
+            <p>収集したデータは以下の目的で利用します。</p>
+            <ul>
+                <li>写真とメモの保存・表示・管理機能の提供</li>
+                <li>写真リストの作成・編集機能の提供</li>
+                <li>iCloud同期によるデバイス間のデータ共有（Pro版）</li>
+            </ul>
+            <p>上記以外の目的でデータを利用することはありません。</p>
+
+            <h2>3. データの保存</h2>
+            <p>すべてのデータはお客様の端末内に保存されます。Pro版をご利用の場合、iCloudを通じてお客様のAppleアカウントに紐づくクラウドストレージに同期されます。iCloud同期はお客様の操作により有効・無効を切り替えられます。</p>
+
+            <h2>4. 第三者へのデータ提供</h2>
+            <p>本アプリは、お客様のデータを第三者に提供、販売、共有することはありません。</p>
+
+            <h2>5. アナリティクス・トラッキング</h2>
+            <p>本アプリは、アナリティクスツールやトラッキングツールを一切使用しません。お客様の利用状況を収集・分析することはありません。</p>
+
+            <h2>6. 広告</h2>
+            <p>本アプリには広告は表示されません。</p>
+
+            <h2>7. 写真ライブラリへのアクセス</h2>
+            <p>本アプリは、お客様が明示的に許可した場合のみ写真ライブラリにアクセスします。iOSの設定から「選択した写真のみ」または「すべての写真」のアクセス権限を選択でき、いつでも変更できます。本アプリは写真ライブラリのデータを外部に送信しません。</p>
+
+            <h2>8. サブスクリプション</h2>
+            <p>本アプリのPro機能はAppleのApp内課金を通じて提供されます。支払い情報はAppleが管理し、本アプリがお客様の支払い情報にアクセスすることはありません。</p>
+
+            <h2>9. データの削除</h2>
+            <p>本アプリのデータは、アプリを削除することですべて端末から削除されます。iCloud同期をご利用の場合は、iOSの設定 &gt; Apple ID &gt; iCloud &gt; ストレージ管理からアプリのデータを削除できます。</p>
+
+            <h2>10. データの保持期間</h2>
+            <p>データはアプリが端末にインストールされている間保持されます。アプリを削除した時点で端末上のデータはすべて削除されます。</p>
+
+            <h2>11. お子様のプライバシー</h2>
+            <p>本アプリは、13歳未満のお子様から意図的に個人情報を収集することはありません。</p>
+
+            <h2>12. ポリシーの変更</h2>
+            <p>本ポリシーは、必要に応じて更新される場合があります。重要な変更がある場合は、アプリのアップデートを通じてお知らせします。</p>
+
+            <h2>13. お問い合わせ</h2>
+            <p>プライバシーに関するご質問は、下記までお問い合わせください。</p>
+            <p>メール: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </div>
+
+        <!-- English -->
+        <div id="content-en" class="lang-section">
+            <h1>Privacy Policy</h1>
+            <p class="date">Last updated: February 16, 2026</p>
+
+            <p>Purevue ("the App") respects your privacy and is committed to protecting your personal information. This Privacy Policy describes how the App handles your data.</p>
+
+            <h2>1. Data We Handle</h2>
+            <p>The App handles the following data on your device:</p>
+            <ul>
+                <li>Photo data: Access to photos you select within the App (using Apple Photos Framework)</li>
+                <li>Memo data: Text of memos you attach to photos</li>
+                <li>List data: Names and structure of photo lists you create</li>
+            </ul>
+
+            <h2>2. Purpose of Use</h2>
+            <p>We use the collected data for the following purposes:</p>
+            <ul>
+                <li>Providing photo and memo saving, display, and management features</li>
+                <li>Providing photo list creation and editing features</li>
+                <li>Syncing data across devices via iCloud (Pro version)</li>
+            </ul>
+            <p>Data will not be used for any purposes other than those listed above.</p>
+
+            <h2>3. Data Storage</h2>
+            <p>All data is stored on your device. If you use the Pro version, data may be synced to cloud storage linked to your Apple account via iCloud. You can enable or disable iCloud sync at any time.</p>
+
+            <h2>4. Data Sharing</h2>
+            <p>The App does not provide, sell, or share your data with any third parties.</p>
+
+            <h2>5. Analytics &amp; Tracking</h2>
+            <p>The App does not use any analytics or tracking tools. Your usage patterns are never collected or analyzed.</p>
+
+            <h2>6. Advertising</h2>
+            <p>The App does not display any advertisements.</p>
+
+            <h2>7. Photo Library Access</h2>
+            <p>The App accesses your photo library only with your explicit permission. You can choose "Selected Photos" or "All Photos" access in iOS Settings and change this at any time. The App does not transmit photo library data externally.</p>
+
+            <h2>8. Subscriptions</h2>
+            <p>Pro features are provided through Apple's In-App Purchase. Payment information is managed by Apple, and the App does not access your payment information.</p>
+
+            <h2>9. Data Deletion</h2>
+            <p>All App data is deleted from your device when you delete the App. If you use iCloud sync, you can delete App data from iOS Settings &gt; Apple ID &gt; iCloud &gt; Manage Storage.</p>
+
+            <h2>10. Data Retention</h2>
+            <p>Data is retained while the App is installed on your device. All data on the device is deleted when the App is removed.</p>
+
+            <h2>11. Children's Privacy</h2>
+            <p>The App does not intentionally collect personal information from children under 13.</p>
+
+            <h2>12. Policy Changes</h2>
+            <p>This policy may be updated as needed. Significant changes will be communicated through app updates.</p>
+
+            <h2>13. Contact</h2>
+            <p>For privacy-related questions, please contact us at:</p>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </div>
+
+        <a href="index.html" class="back-link">&larr; Back</a>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-switch button').forEach(el => el.classList.remove('active'));
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+        // Auto-detect language
+        if (navigator.language && !navigator.language.startsWith('ja')) {
+            switchLang('en');
+        }
+    </script>
+</body>
+</html>
